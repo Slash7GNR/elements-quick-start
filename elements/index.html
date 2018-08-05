@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+<element-sample additional-text="This is the text"></element-sample>
+<script src="elements-sample.js"></script>
+<script>
+let elementsSample = document.querySelector('element-sample');
+let userSubmittedFunction = (user) => { alert('Welcome ' + user.detail + '! thanks for joining us!'); };
+elementsSample.addEventListener('userSubmitted', 
+								userSubmittedFunction);
+</script>
+</body>
+</html>
