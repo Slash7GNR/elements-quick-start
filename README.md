@@ -1,4 +1,4 @@
-# ElementsQuickStart
+# Elements Quick Start
 
 This project includes a quick start for how to use angular elements feature.
 
